@@ -3,7 +3,7 @@ import { Hero } from "@/components/hero"
 import { About } from "@/components/about"
 import { Projects } from "@/components/projects"
 import { Skills } from "@/components/skills"
-import { Contact } from "@/components/contact"
+import { Feedback } from "@/components/feedback"
 import { Footer } from "@/components/footer"
 
 export default function Page() {
@@ -15,7 +15,7 @@ export default function Page() {
         <About />
         <Projects />
         <Skills />
-        <Contact />
+        <Feedback />
       </main>
       <Footer />
     </>
