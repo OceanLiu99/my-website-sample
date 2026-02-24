@@ -115,13 +115,13 @@ export function Contact() {
 
             <div className="space-y-4">
               <a
-                href="mailto:yuyang@example.com"
+                href="mailto:yuyangliu1999@gmail.com"
                 className="flex items-center gap-3 rounded-xl border border-border bg-card p-4 text-sm font-medium text-foreground shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
               >
                 <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-accent/10 text-accent">
                   <Mail className="h-5 w-5" />
                 </span>
-                yuyang@example.com
+                yuyangliu1999@gmail.com
               </a>
               <a
                 href="https://github.com"

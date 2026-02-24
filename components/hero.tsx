@@ -42,7 +42,7 @@ export function Hero() {
               <ArrowRight className="h-4 w-4" />
             </a>
             <a
-              href="#contact"
+              href="mailto:yuyangliu1999@gmail.com"
               className="inline-flex items-center gap-2 rounded-lg border border-border px-6 py-3 text-sm font-semibold text-foreground transition-colors hover:border-accent hover:bg-accent/5"
             >
               <Mail className="h-4 w-4" />

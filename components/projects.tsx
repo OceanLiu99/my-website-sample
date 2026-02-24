@@ -7,18 +7,21 @@ const projects = [
     description:
       "An AI-powered spatial analysis tool that leverages geospatial data and machine learning to deliver actionable location-based insights.",
     image: "/images/project-spatial.jpg",
+    link: "https://github.com/OceanLiu99/spatial-analysis-agent",
   },
   {
     title: "Restaurant Intelligence",
     description:
       "A smart analytics platform for restaurants, combining review sentiment analysis, ratings trends, and business intelligence to drive better decisions.",
     image: "/images/project-restaurant.jpg",
+    link: "https://github.com/OceanLiu99/tokyo-restaurant-intelligence",
   },
   {
     title: "Smart Eat",
     description:
       "An intelligent nutrition and meal recommendation app that uses AI to help users make healthier food choices based on their personal goals.",
     image: "/images/project-smarteat.jpg",
+    link: "https://github.com/OceanLiu99/SmartEats_Toolkit",
   },
 ]
 
@@ -62,10 +65,15 @@ export function Projects() {
                 <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
                   {project.description}
                 </p>
-                <button className="mt-5 inline-flex items-center gap-2 rounded-lg bg-accent px-4 py-2.5 text-sm font-semibold text-accent-foreground transition-all hover:brightness-110">
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-5 inline-flex items-center gap-2 rounded-lg bg-accent px-4 py-2.5 text-sm font-semibold text-accent-foreground transition-all hover:brightness-110"
+                >
                   View Project
                   <ExternalLink className="h-4 w-4" />
-                </button>
+                </a>
               </div>
             </article>
           ))}
